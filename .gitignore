@@ -1,0 +1,58 @@
+# Termux-specific files
+.config/termux/.history
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+
+# pcap/capture files
+*.pcap
+*.pcapng
+
+# SSH keys (keep public keys, ignore private)
+!~/.ssh/*.pub
+~/.ssh/*
+!~/.ssh/*.pub
